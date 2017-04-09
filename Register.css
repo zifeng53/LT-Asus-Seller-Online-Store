@@ -1,0 +1,47 @@
+﻿h1 {
+	color: #033AE5;
+	font-family: "Franklin Gothic Medium";
+}
+
+.auto-style1 {
+	font-size:large;
+}
+
+.auto-style2 {
+	font-size:xx-large;
+}
+		
+input[type=text], input[type=password] 
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color:#6A5ACD;
+    color: black;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border:medium;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signupbtn {
+    float:inherit;
+    width: 35%;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+    .signupbtn {
+        width: 100%;
+    }
+}

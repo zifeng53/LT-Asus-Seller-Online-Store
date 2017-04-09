@@ -1,0 +1,16 @@
+﻿#upBtn {
+	border-style: none;
+	display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#upBtn:hover {
+  	background-color: #555;
+}

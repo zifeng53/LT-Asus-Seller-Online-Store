@@ -1,0 +1,57 @@
+﻿body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	margin:0;
+}
+h1 {
+	color: #4242FF;
+	font-family: "Franklin Gothic Medium";
+}
+
+
+input[type=text], input[type=password] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color:#9966FF;
+    color: black;
+    padding: 14px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+img.avatar {
+	float:inherit;
+    width: 35%;
+}
+@media screen and (max-width: 300px) {
+       width: 100%;
+}
+
+.login{
+	font-size: 20px;
+}	
+.login:hover{
+	color:white
+}
+.auto-style2 {
+	font-size:xx-large;
+}
+.content{
+	padding-top:20px;
+	padding-left: 100px; 
+	padding-right: 100px; 
+	letter-spacing: 2px; 
+	line-height: 2;
+	height:545px;
+}
+.rgt{
+	color:#6A5ACD 
+}

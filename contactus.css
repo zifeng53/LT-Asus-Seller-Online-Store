@@ -1,0 +1,90 @@
+﻿body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	margin:0;
+}
+.content{
+	padding-left: 100px; 
+	padding-right: 100px; 
+	letter-spacing: 2px; 
+	line-height: 2;
+	height:900px;
+}
+h1, h2 {
+	color:navy;
+}
+h4 {
+	font-size:22px;
+}
+.panel-left{
+	width: 75%;
+	float: left;
+}
+#contact-form {
+	max-width: 550px;
+	width: 550px;
+	padding: 20 0 10 0;
+	border:0px;
+	margin:0px;
+}
+form{
+	height: 500px;
+	border: 0;
+}
+label {
+	font-size: 20px;
+}
+input {
+	width:500px;
+	padding:10px;
+	height: 40px;
+	font-size:20px;
+	border:2px solid #99FFCC;
+}
+textarea {
+	width: 500px;
+	height: 100px;
+	max-width: 500px;
+	line-height: 15px;
+	font-size:17px;
+	border:2px solid #99FFCC;
+}
+#1 {
+	padding: 0 0 2 0;
+}
+.btn{
+	width:150px; 
+	padding: 5;
+	background:#00CCFF;
+	font-family:"Lucida Bright";
+	color:white;
+}
+.btn:hover{
+	color: black
+}
+.panel-right{
+	 float:right;
+	 width:25%;
+}
+.panel-right ul {
+	list-style-type:none;
+}
+
+#p-r {
+	width:210px;
+}
+input[type=radio]{
+	width:15px;
+	height:15px;
+}
+fieldset {
+	border: 0;
+}
+input[type=submit]{
+	float: left;
+	border: 0;
+}
+input[type=reset]{
+	float: right;
+	border:0
+}

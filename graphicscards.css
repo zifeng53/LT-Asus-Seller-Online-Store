@@ -1,0 +1,73 @@
+﻿body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	margin:0px;
+}
+
+h1{
+	color:navy
+}
+.content{
+	font-family: 'Work Sans', sans-serif;
+	padding-left: 100px; 
+	padding-right: 100px; 
+}
+h2 { 
+	background: linear-gradient(#ffffff, #F6F6F6);
+	border-bottom: 1px solid #E0E0E0;
+	color: #3C3C3C;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 11px 0 12px 20px;
+}
+h3{
+	font-size: 28px;
+	font-family:MingLiU
+}
+.item{
+	height:500px;
+	width: 1150px;
+}
+.image{
+	float: left;
+	max-height: 500px;
+	max-width: 650px;
+}
+.info{
+	padding-top: 18px;
+	float: right;
+	max-height:500px;
+	max-width: 500px;
+	width: 400px;
+	line-height: 2;
+}
+
+#url{
+	color:#009832;
+	float:left;
+	display: block;
+	border: 1px solid #E0E0E0;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 5px;
+	text-decoration: none;
+}
+.price{
+	font-size: 20px;
+}
+#btnbuynow{
+	border: 10px solid #E0E0E0;
+	color: #fd7a01;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	cursor: pointer;
+	line-height: 16px;
+	font-weight: bold;
+}
+
+
+

@@ -1,0 +1,115 @@
+﻿body{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	margin:0
+}	
+#main {
+	background-color: #fff;
+	padding-left: 100px; 
+	padding-right: 100px; 
+}
+#content {
+	overflow: hidden;
+	font-family:"Book Antiqua"
+}
+#content #phones {
+	width: 100%;
+}
+#content h3 { 
+	background: linear-gradient(#ffffff, #F6F6F6);
+	border-bottom: 1px solid #E0E0E0;
+	color: #3C3C3C;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 11px 0 12px 20px;
+	text-transform: uppercase;
+}
+#content ul {
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+}
+#content #phones ul li {
+	float:left;
+	padding-bottom: 21px;
+	width: 33%;
+}
+#content #phones ul li:hover {
+	background-color: #fbfbfb;
+}
+#content #phones ul li .img {
+	text-align: center;
+}
+#content #phones ul li .img img {
+	height:128px;
+	width:128px;
+}
+#content #phones ul li .info {
+	padding: 17px 20px 0 19px;
+}
+#content ul li .info .title {
+	color: #4B4B4B;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 280px;
+}
+#content ul li .info .title:hover {
+	color: #049733;
+}
+#content #phones ul li .info p {
+	color: #7F7F7F;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 3px;
+	font-family:Courier New;
+}
+#content #phones ul li .info .price {
+	background: none repeat scroll 0 0 #F7F7F7;
+	color: #383838;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	margin: 17px 0 10px;
+	padding: 6px 0 6px 8px;
+}
+#content #phones ul li .info .price .st {
+	color: #7F7F7F;
+	font-size: 11px;
+	line-height: 16px;
+	margin-right: 3px;
+}
+#content #phones ul li .info .actions {
+	overflow:hidden;
+}
+#content #phones ul li .info .actions a {
+	border: 1px solid #E0E0E0;
+	color: #fd7a01;
+	display: block;
+	float:right;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 5px;
+	text-decoration: none;
+}
+#content #phones ul li .info .actions a:first-child {
+	color: #009832;
+	float:left;
+}
+#content #phones ul li .info .actions #btnbuynow {
+    border: 1px solid #E0E0E0;
+    color: #fd7a01;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    cursor: pointer;
+    line-height:16px;
+    font-weight:bold;
+    float: right;
+}

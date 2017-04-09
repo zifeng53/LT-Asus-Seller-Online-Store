@@ -1,0 +1,36 @@
+﻿body{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	margin:0
+}	
+h1{
+	color: navy;
+}
+
+input[type=text]
+{
+	width: 40%;
+	padding: 12px 17px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px #3399FF solid;
+}
+
+#btnsubmit {
+	background-color: #6A5ACD;
+	color: black;
+	padding: 12px;
+	border: medium;
+	cursor: pointer;
+	width: 200px;
+	font-size: 20px;
+	font-style: normal;
+
+}
+.content{
+	padding-left: 100px; 
+	padding-right: 100px; 
+	letter-spacing: 2px; 
+	line-height: 2;
+}
+

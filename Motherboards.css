@@ -1,0 +1,36 @@
+﻿body{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	margin:0
+}	
+.auto-style1 {
+	font-weight: normal;
+	color: navy;
+}
+.auto-style2 {
+	text-align: center;
+}
+.auto-style3 {
+	font-size: large;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.auto-style4 {
+	font-size:x-large;
+}
+.auto-style6 {
+	font-size:large;
+}
+.auto-style7 {
+	font-size: medium;
+}
+.auto-style8 {
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #FFFF00;
+}
+.content{
+	padding-left: 100px; 
+	padding-right: 100px; 
+	letter-spacing: 2px; 
+	line-height: 2;
+}
